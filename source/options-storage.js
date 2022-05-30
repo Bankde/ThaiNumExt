@@ -2,10 +2,8 @@ import OptionsSync from 'webext-options-sync';
 
 export default new OptionsSync({
 	defaults: {
-		colorRed: 244,
-		colorGreen: 67,
-		colorBlue: 54,
-		text: 'Set a text!',
+		numOpt: 'Thai',
+		isEnable: true,
 	},
 	migrations: [
 		OptionsSync.migrations.removeUnused,
